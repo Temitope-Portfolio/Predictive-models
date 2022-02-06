@@ -9,7 +9,7 @@ The relevant libraries were imported and loading the real data from yahoo financ
 Later went to prepare the data for the Neural network and scaled down the data within 0 and 1 so that Neural network will work better with it.
 
 
-Next we went on to choice a number for the prediction days. The prediction days are going to be the number of days we're going to base our prediction on. We look at the number of past x-days e.g 60 days and then we predict one day in the future, hence, we look at 60 days then we predict the 61st day.
+Next we went on to choice a number for the prediction days. The prediction days are going to be the number of days we're going to base our prediction on. We look at the number of past x_days e.g 60 days and then we predict one day in the future, hence, we look at 60 days then we predict the 61st day.
 Then we neeed to prepare the training data. We need to have a x_data and y_data where y_data is going to be the result of the prediction. This is Supervised learning, we're saying we want the x_data to be the 60 days (actual value) data which is more concised and the y_data to be the result of the prediction.
 
 

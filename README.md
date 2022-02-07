@@ -45,5 +45,4 @@ We can do that by adding the future day in the prepare data by saying future_day
 
 This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 
 
-![Screenshot 27-01-2022 185306 (2)](https://user-images.githubusercontent.com/81313873/152884064-a44ad72a-3fb9-4aab-b3e9-8a1cf78c136e.jpg)
-
+![Screenshot 07-02-2022 234255](https://user-images.githubusercontent.com/81313873/152885095-babff09a-7e83-4202-8d8f-471223da9609.jpg)

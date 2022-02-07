@@ -24,3 +24,5 @@ After, we're going to plot both the actual price and the predicted price in the 
 
 ![Screenshot 06-02-2022 122003](https://user-images.githubusercontent.com/81313873/152678397-a1d7a201-915e-49eb-822b-eda37c63a504.jpg)
 
+
+The prediction curve looks good, even if they look almost alike, we need to keep in mind that we're only predicting one day based on 60 days

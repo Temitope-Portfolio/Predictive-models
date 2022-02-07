@@ -29,4 +29,7 @@ The prediction curve looks good, even if they look almost alike, we need to keep
 
 ## Explaining Bitcoin 30 days Price Prediction
 
-If we want to predict actual days in the future not just looking at the past performance, we need to look at the actual prediction for that particular day. In this case, we are looking at 30 days prediction
+If we want to predict actual days in the future not just looking at the past performance or looking at the next day, we need to look at the actual prediction for that particular day in the future. This means we're looking at 60 days, and we're still just predicting one single value in the future. We're not going to predict a sequence of movements, we are going to predict one price in the future, in this case, we are looking at 30 days prediction.
+
+We can do that by adding the future day in the prepare data by saying future_day is 30 days. Which means we're not predicting the 61st day but the 30th day after those 60 days.
+

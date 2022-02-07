@@ -43,6 +43,6 @@ We can do that by adding the future day in the prepare data by saying future_day
 
 ![Screenshot 07-02-2022 231010](https://user-images.githubusercontent.com/81313873/152880843-60f9bf01-ef81-4fc6-9882-32398595bab4.jpg)
 
-This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 
+This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 30 days prediction into the future which looks actually better as we can see what the price would be in 30 days time.
 
 ![Screenshot 07-02-2022 234255](https://user-images.githubusercontent.com/81313873/152885095-babff09a-7e83-4202-8d8f-471223da9609.jpg)

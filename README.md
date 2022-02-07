@@ -29,6 +29,7 @@ Next we're going to test the model. For this, we need to specify a time frame fo
 
 ![Screenshot 07-02-2022 232606](https://user-images.githubusercontent.com/81313873/152882689-414e8666-aded-45a8-994f-141d295eacd4.jpg)
 
+
 ![Screenshot 06-02-2022 122003](https://user-images.githubusercontent.com/81313873/152678397-a1d7a201-915e-49eb-822b-eda37c63a504.jpg)
 
 
@@ -41,4 +42,8 @@ If we want to predict actual days in the future not just looking at the past per
 We can do that by adding the future day in the prepare data by saying future_day is 30 days. Which means we're not predicting the 61st day but the 30th day after those 60 days.
 
 ![Screenshot 07-02-2022 231010](https://user-images.githubusercontent.com/81313873/152880843-60f9bf01-ef81-4fc6-9882-32398595bab4.jpg)
+
+This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 
+
+![Screenshot 27-01-2022 185306 (2)](https://user-images.githubusercontent.com/81313873/152884064-a44ad72a-3fb9-4aab-b3e9-8a1cf78c136e.jpg)
 

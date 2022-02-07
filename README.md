@@ -25,4 +25,8 @@ After, we're going to plot both the actual price and the predicted price in the 
 ![Screenshot 06-02-2022 122003](https://user-images.githubusercontent.com/81313873/152678397-a1d7a201-915e-49eb-822b-eda37c63a504.jpg)
 
 
-The prediction curve looks good, even if they look almost alike, we need to keep in mind that we're only predicting one day based on 60 days
+The prediction curve looks good, even if they look almost alike, we need to keep in mind that we're only predicting one day based on 60 days. So we need to feed it 60 days data in order for us to be able to predict the 61st day. If we're to predict the 62nd day, we would need to feed it 59 days data and train the model.
+
+## Explaining Bitcoin 30 days Price Prediction
+
+If we want to predict actual days in the future not just looking at the past performance, we need to look at the actual prediction for that particular day. In this case, we are looking at 30 days prediction

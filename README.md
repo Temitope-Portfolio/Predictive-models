@@ -11,10 +11,10 @@ The relevant libraries were imported and loading the real data from yahoo financ
 ![Screenshot 07-02-2022 231842](https://user-images.githubusercontent.com/81313873/152881811-850291aa-e4b7-42a1-8eac-e4d24dcea272.jpg)
 
 
-Later went to prepare the data for the Neural network and scaled down the data within 0 and 1 so that Neural network will work better with it.
+Later, I went to prepare the data for the Neural network and scaled down the data within 0 and 1 so that Neural network will work better with it.
 
 
-Next we're going to choose a number for the prediction days. The prediction days are going to be the number of days we're going to base our prediction on. We look at the number of past x_days e.g 60 days and then we predict one day in the future, hence, we look at 60 days then we predict the 61st day.
+                                    Next we're going to choose a number for the prediction days. The prediction days are going to be the number of days we're going to base our prediction on. We look at the number of past x_days e.g 60 days and then we predict one day in the future, hence, we look at 60 days then we predict the 61st day. |
 Then we neeed to prepare the training data. We need to have a x_data and y_data where y_data is going to be the result of the prediction. This is Supervised learning, we're saying we want the x_data to be the 60 days (actual value) data which is more concised and the y_data to be the result of the prediction.
 
 ![Screenshot 07-02-2022 232316](https://user-images.githubusercontent.com/81313873/152882297-76812fbe-2874-4aaf-9cad-cbf31942480d.jpg)
@@ -43,6 +43,6 @@ We can do that by adding the future day in the prepare data by saying future_day
 
 ![Screenshot 07-02-2022 231010](https://user-images.githubusercontent.com/81313873/152880843-60f9bf01-ef81-4fc6-9882-32398595bab4.jpg)
 
-This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 30 days prediction into the future which looks actually better as we can see what the price would be in 30 days time. Interpreting the curve, bitcoin price would rise to 48k or more from its current price.
+This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 30 days prediction into the future which looks actually better as we can see what the price would be in 30 days time. Interpreting the curve, bitcoin price would rise to $48k or more from its current price.
 
 ![Screenshot 07-02-2022 234255](https://user-images.githubusercontent.com/81313873/152885095-babff09a-7e83-4202-8d8f-471223da9609.jpg)

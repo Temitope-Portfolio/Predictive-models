@@ -51,7 +51,7 @@ This is just a slight change that we can use to predict the future day, hence, 3
 # Data Analysis for Predicting Wine Quality
 
 ### Overview
-A python project I am working on with a case study that predicts wine quality, in this case, red wine. I am working on this project using python on Jupyter notebook.
+A python project I worked on with a case study that predicts wine quality, in this case, red wine. I am working on this project using python on Jupyter notebook.
 
 ### Goal
 

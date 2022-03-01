@@ -45,3 +45,15 @@ We can do that by adding the future day in the prepared data by saying future_da
 This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 30 days prediction into the future which looks better as we can see what the price would be in 30 days. Interpreting the curve, the bitcoin price would rise to $48k or more from its current price.
 
 ![Screenshot 07-02-2022 234255](https://user-images.githubusercontent.com/81313873/152885095-babff09a-7e83-4202-8d8f-471223da9609.jpg)
+
+---
+---
+# Data Analysis for Predicting Wine Quality
+
+### Overview
+A python project I am working on with a case study that predicts wine quality, in this case, red wine. I am working on this project using python on Jupyter notebook.
+
+### Goal
+
+Provide insight into the quality prediction of red wine.
+

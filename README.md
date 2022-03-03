@@ -1,4 +1,6 @@
-# Bitcoin Price Predictive Model
+# TEMITOPE PORTFOLIO
+
+# PROJECT 1: Bitcoin Price Predictive Model
 Date : 5/2/2022
 
 ## Why Price Prediction on Bitcoin?
@@ -48,7 +50,7 @@ This is just a slight change that we can use to predict the future day, hence, 3
 
 ---
 ---
-# Data Analysis for Predicting Wine Quality
+# PROJECT 2: Data Analysis for Predicting Wine Quality With Machine Learning
 
 ### Overview
 A python project I worked on with a case study that predicts wine quality, in this case, red wine. I am working on this project using python on Jupyter notebook.

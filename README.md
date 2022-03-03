@@ -57,5 +57,5 @@ A python project I worked on with a case study that predicts wine quality, in th
 
 ### Goal
 
-Provide insight into the quality prediction of red wine.
+Provide insight into the quality prediction of red wine with classification model.
 

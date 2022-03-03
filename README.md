@@ -57,5 +57,9 @@ A python project I worked on with a case study that predicts wine quality, in th
 
 ### Goal
 
-Provide insight into the quality prediction of red wine with classification model.
+Provide insight and predict the quality of the wine based on the features of the wine with classification model.
+
+### Dataset Information
+
+This dataset can either be worked on as classification or regression model and the classes are ordered but not balanced. The outliers 
 

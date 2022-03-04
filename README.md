@@ -1,4 +1,4 @@
-# TEMITOPE PORTFOLIO
+# Temitope Portfolio
 
 # PROJECT 1: Bitcoin Price Predictive Model
 Date : 5/2/2022

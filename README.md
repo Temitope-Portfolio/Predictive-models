@@ -1,4 +1,4 @@
-# Temitope Portfolio
+# Temitope's Portfolio
 
 # PROJECT 1: Bitcoin Price Predictive Model
 Date : 5/2/2022
@@ -59,7 +59,24 @@ A python project I worked on with a case study that predicts wine quality, in th
 
 Provide insight and predict the quality of the wine based on the features of the wine with classification model.
 
+### Analysis Approach
+
+This dataset can either be worked on as classification or regression model. I chose to work with classification model inorder to get more accuracy on the wine quality.
+
 ### Dataset Information
+This dataset is gotten from UCI https://archive.ics.uci.edu/ml/datasets/Wine+Quality machine learning repository. The classes are ordered and not balanced that means high number of samples are focused on only one class. The dataset needs to be balanced inorder to get the accuracy correctly. The outliers could be used to detect the few excellent or poor wines.
 
-This dataset can either be worked on as classification or regression model and the classes are ordered but not balanced. The outliers 
 
+Each wine sample has the following characteristics:
+1. Fixed acidity
+2. Volatile acidity
+3. Citric sugar
+4. Residual sugar
+5. Chlorides
+6. Free sulfur dioxide
+7. Total sulfur dioxide
+8. Density
+9. pH
+10. Sulphates
+11. Alcohol
+12. Quality

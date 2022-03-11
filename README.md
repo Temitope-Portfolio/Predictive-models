@@ -49,7 +49,7 @@ This is just a slight change that we can use to predict the future day, hence, 3
 ![Screenshot 07-02-2022 234255](https://user-images.githubusercontent.com/81313873/152885095-babff09a-7e83-4202-8d8f-471223da9609.jpg)
 
 ---
----
+
 # PROJECT 2: Data Analysis for Predicting Wine Quality With Machine Learning
 
 ### Overview
@@ -83,4 +83,22 @@ Each wine sample has the following characteristics:
 
 ### Modules Used
 
-![Screenshot 11-03-2022 005904](https://user-images.githubusercontent.com/81313873/157775740-9fc46620-7112-4140-a85e-87220db6da0e.jpg)
+![Modules imported](https://user-images.githubusercontent.com/81313873/157775740-9fc46620-7112-4140-a85e-87220db6da0e.jpg)
+
+### Loading the dataset
+
+Loading the dataset inorder to see all the 12 attributes of the data and making a copy of the data incase I want to make use of some attributes on the data without affecting the original data
+
+![Dataset](https://user-images.githubusercontent.com/81313873/157825388-7d6f1602-43c9-4bb8-80de-c7f930a6e8ef.jpg)
+
+I checked the statistical information to see if there were any missing values from the count. The total number of sample is 1599 and there are no missing values from the dataset. If there were missing values, they can be filled with the mean, median, or mode values but in numerical attributes, the mean is used to fill the missing values because of its average value.
+
+![Dataset described](https://user-images.githubusercontent.com/81313873/157827432-22117524-bea7-4c2a-9dd6-3be6b4d8b6a2.jpg)
+
+Checking the datatype info, we will see the different datatypes, in this case, we have both the float and int. We can make use of the int as a classifier or regressor because it is within a particular range of values. We can perform various analysis because of these numerical attributes (float, int).
+
+![Data type](https://user-images.githubusercontent.com/81313873/157828940-a9bf5372-3d01-411b-91f6-e6ac676d71b4.jpg)
+
+### Data Preprocessing
+
+Preprocessing the data to check for null values

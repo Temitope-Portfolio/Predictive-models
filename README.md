@@ -101,4 +101,6 @@ Checking the datatype info, we will see the different datatypes, in this case, w
 
 ### Data Preprocessing
 
-Preprocessing the data to check for null values
+Preprocessing the data to check for null values. The dataset has no missing values and as mentioned earlier, if there were any missing values, it can be filled with the mean of the column of the missing values.
+
+![Data preprocessing](https://user-images.githubusercontent.com/81313873/157832100-5edde07b-874e-4e1f-bd61-a91f3e74d503.jpg)

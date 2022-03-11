@@ -79,4 +79,8 @@ Each wine sample has the following characteristics:
 9. pH
 10. Sulphates
 11. Alcohol
-12. Quality
+12. Quality (values between 0 and 10)
+
+### Modules Used
+
+![Screenshot 11-03-2022 005904](https://user-images.githubusercontent.com/81313873/157775740-9fc46620-7112-4140-a85e-87220db6da0e.jpg)

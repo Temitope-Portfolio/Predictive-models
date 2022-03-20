@@ -108,3 +108,9 @@ Preprocessing the data to check for null values. The dataset has no missing valu
 ### Exploratory Data Analysis
 
 Creating box plots to check for outliers
+
+![Detecting outliers](https://user-images.githubusercontent.com/81313873/159095936-ddab4333-c521-48cc-90aa-64730cefff6f.jpg)
+
+Running the code, there are big outliers that are in volatile acidity, chlorides, and total sulfur dioxide. By removing the outliers, we can improve the model accuracy by a few percent but it won't make that much difference. So, if we want to remove values from the outliers, it will be from volatile acidity, chlorides, and total sulfur dioxide, other values are in good range.
+
+Next

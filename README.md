@@ -113,4 +113,18 @@ Creating box plots to check for outliers
 
 Running the code, there are big outliers that are in volatile acidity, chlorides, and total sulfur dioxide. By removing the outliers, we can improve the model accuracy by a few percent but it won't make that much difference. So, if we want to remove values from the outliers, it will be from volatile acidity, chlorides, and total sulfur dioxide, other values are in good range.
 
-To check for the distribution and skewness of the values, we need to create a  distplot. Creating a distplot, all the values are in almost normal distribution so we do not need to change any of the distributions
+To check for the distribution and skewness of the values, we need to create a  distplot. Creating a distplot, all the values are in almost normal distribution so we do not need to change any of the distributions and the values range are very less except for free sulfur dioxide that is in a big range. To change the big range of free sulfur dioxide, we will use log transformation.
+
+![Log transformation](https://user-images.githubusercontent.com/81313873/159507276-3194dfaf-3f2e-4c18-be30-5e7aa7c287f1.jpg)
+
+Now, it is in uniform distribution unlike before when it was right skewed.
+
+Carrying out another analysis to check the amount of class we have for the classification part.
+
+![Amount of class](https://user-images.githubusercontent.com/81313873/159509124-e815b353-0e74-4694-afc3-9574e1934441.jpg)
+As mentioned above, the quality of the wine is in the range of 0 to 10 but in this dataset, it is in the range of 3 to 9. Classes 5, 6, and 7 have higher number of samples compared to others. In this case, the whole model will be biased to these three classes only. We need to seperate the model for the test-dataset prediction which is called **Class Imbalancement** because all the classes are in different range of values. We will need to balance all the classes and make the dataset to be uniform.
+
+### Correlation Matrix
+
+![Correlation Matrix](https://user-images.githubusercontent.com/81313873/159523787-5a6bd535-2cd7-4abb-afdd-7b06bc339079.jpg)
+Focusing on the output, alcohol is positively correlated with quality and negatively correlated with density while free sulfur dioxide is highly correlated with total sulfur dioxide because they are both sulfur dioxide. We can drop free sulfur dioxide and also density (optional). Apart from these two values, we are not seeing any other highly imparted values in the correlation matrix

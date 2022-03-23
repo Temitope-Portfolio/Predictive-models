@@ -128,3 +128,7 @@ As mentioned above, the quality of the wine is in the range of 0 to 10 but in th
 
 ![Correlation Matrix](https://user-images.githubusercontent.com/81313873/159523787-5a6bd535-2cd7-4abb-afdd-7b06bc339079.jpg)
 Focusing on the output, alcohol is positively correlated with quality and negatively correlated with density while free sulfur dioxide is highly correlated with total sulfur dioxide because they are both sulfur dioxide. We can decide to drop free sulfur dioxide and also density from the dataset. Apart from these two values, we are not seeing any other highly imparted values in the correlation matrix
+
+
+
+To get the source code to the model, **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Wine%20Quality.ipynb).**

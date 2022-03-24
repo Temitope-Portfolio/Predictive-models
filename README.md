@@ -139,7 +139,7 @@ As I said above, I used classification for training the dataset. After clasifyin
 
 ![Model training](https://user-images.githubusercontent.com/81313873/159907596-c14e8a3a-2555-47bd-be5e-7717766217b4.jpg)
 
-To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier(). From all the models, we have 86% accuracy and cross validation score of 81 from XGBClassifier which is one of the best models we have got from the dataset. If we did not rebalance the class or oversample the dataset, the percentage accuracy and the cross validation score would be low and shows that the model is not performing well.
+To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier(). From all the models, we have 86% accuracy and cross validation score of 81 from XGBClassifier which is one of the best models we have got from the dataset. If we did not rebalance the class or oversample the dataset, the percentage accuracy and the cross validation score would be low which shows that the model is not performing well.
 
 
 To get the source code to the model, please **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Wine%20Quality.ipynb).**

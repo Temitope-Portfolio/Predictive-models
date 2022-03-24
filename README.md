@@ -127,8 +127,19 @@ As mentioned above, the quality of the wine is in the range of 0 to 10 but in th
 ### Correlation Matrix
 
 ![Correlation Matrix](https://user-images.githubusercontent.com/81313873/159523787-5a6bd535-2cd7-4abb-afdd-7b06bc339079.jpg)
-Focusing on the output, alcohol is positively correlated with quality and negatively correlated with density while free sulfur dioxide is highly correlated with total sulfur dioxide because they are both sulfur dioxide. We can decide to drop free sulfur dioxide and also density from the dataset. Apart from these two values, we are not seeing any other highly imparted values in the correlation matrix
+Focusing on the output, alcohol is positively correlated with quality and negatively correlated with density while free sulfur dioxide is highly correlated with total sulfur dioxide because they are both sulfur dioxide. We can decide to drop free sulfur dioxide and also density from the dataset. Apart from these two values, we are not seeing any other highly imparted values in the correlation matrix.
 
+### Class imbalacement
+When it comes to class imbalancement, I used **SMOTE** and transformed the dataset. But first I checked the number of values in each dataset and 5 has the highest number of values of 681. The oversample function will sample all the low numbered classes to 681.
+
+![Class imbalancement](https://user-images.githubusercontent.com/81313873/159694662-08d4abc4-9a8c-4718-b359-7caad0c9c7fb.jpg)
+
+### Model Training
+As I said above, I used classification for training the dataset. After clasifying the function, I splitted the dataset with the train_test_split function. After splitting the model, I trained the model and printed the accuracy. I used cross validation to be able to get more information about the performance of the model and multiplied by 100 to be able to convert it to percentage format.
+
+![Model training](https://user-images.githubusercontent.com/81313873/159907596-c14e8a3a-2555-47bd-be5e-7717766217b4.jpg)
+
+To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier().
 
 
 To get the source code to the model, **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Wine%20Quality.ipynb).**

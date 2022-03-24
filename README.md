@@ -135,11 +135,11 @@ When it comes to class imbalancement, I used **SMOTE** and transformed the datas
 ![Class imbalancement](https://user-images.githubusercontent.com/81313873/159694662-08d4abc4-9a8c-4718-b359-7caad0c9c7fb.jpg)
 
 ### Model Training
-As I said above, I used classification for training the dataset. After clasifying the function, I splitted the dataset with the train_test_split function. After splitting the model, I trained the model and printed the accuracy. I used cross validation to be able to get more information about the performance of the model and multiplied by 100 to be able to convert it to percentage format.
+As I said above, I used classification for training the dataset. After clasifying the function, I splitted the dataset with the train_test_split function. After splitting the model, I trained the model and printed the accuracy. I used cross validation to be able to get more information about the performance of the model and multiplied by 100 so it will be in percentage format.
 
 ![Model training](https://user-images.githubusercontent.com/81313873/159907596-c14e8a3a-2555-47bd-be5e-7717766217b4.jpg)
 
-To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier().
+To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier(). From all the models, we have 86% accuracy and cross validation score of 81 from XGBClassifier which is one of the best models we have got from the dataset. If we did not rebalance the class or oversample the dataset, the percentage accuracy and the cross validation score would be low and shows that the model is not performing well.
 
 
 To get the source code to the model, **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Wine%20Quality.ipynb).**

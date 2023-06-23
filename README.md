@@ -143,3 +143,10 @@ To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), 
 
 
 To get the source code to the model, please **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Wine%20Quality.ipynb).**
+
+---
+
+# Project 3: Customer Shopping Analysis
+
+### Some Information About The Dataset
+The dataset recorded 99,457 customers from 10 different shopping malls in the city of Instabul.

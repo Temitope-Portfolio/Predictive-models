@@ -1,28 +1,28 @@
 # Temitope's Portfolio
 
 # PROJECT 1: Bitcoin Price Predictive Model
-Date : 5/2/2022
+Date: 5/2/2022
 
 ## Why Price Prediction on Bitcoin?
-Carrying out a price predictive model on Bitcoin with its volatility's nature, it is important to predict its next move with the data available and check the models' accuracy.
+Carrying out a price predictive model on Bitcoin with its volatility nature, it is important to predict its next move with the data available and check the models' accuracy.
 
 ## Explaining Bitcoin Present Price Prediction
-The relevant libraries were imported and loaded the data from yahoo finance API with the starting date from 2018,1,1 and ending date to be now -the current day- which is the time frame for the training data. 
+The relevant libraries were imported and loaded the data from yahoo finance API with the starting date from 2018,1,1 and the ending date to be now -the current day- which is the time frame for the training data. 
 
 
 ![Screenshot 07-02-2022 231842](https://user-images.githubusercontent.com/81313873/152881811-850291aa-e4b7-42a1-8eac-e4d24dcea272.jpg)
 
 
-Later, I prepared the data for the Neural Network and scaled-down the data within 0 and 1 so that the Neural Network would work better with it.
+Later, I prepared the data for the Neural Network and scaled down the data between 0 and 1 so that the Neural Network would work better with it.
 
-Next, we are going to choose a number for the prediction days. The prediction days will be the number of days we are basing our prediction on. We look at the number of past x_days e.g 60 days, and then we predict one day in the future, hence, we look at 60 days then we predict the 61st day.
+Next, we are going to choose a number for the prediction days. The prediction days will be the number of days we are basing our prediction on. We look at the number of past x_days e.g. 60 days, and then we predict one day in the future, hence, we look at 60 days then we predict the 61st day.
 Then we need to prepare the training data. We need to have x_data and y_data where y_data is going to be the result of the prediction. This is Supervised Learning, we are saying we want the x_data to be the 60 days (actual value) data which is more concise, and the y_data to be the result of the prediction.
 
 ![Screenshot 07-02-2022 232316](https://user-images.githubusercontent.com/81313873/152882297-76812fbe-2874-4aaf-9cad-cbf31942480d.jpg)
 
 
 
-Next, we are going to build a Neural Network which is going to be the model that we are going to use for the prediction. We are going to equate the model to Sequential() and add LSTM layers (Long Short-Term Memory) and dropout layers. LSTM layers are going to be recurrent layers which we are going to use to memorise data since we are dealing with sequential data which has day 1, day 2, day 3, and so on. Those layers are powerful because they are specialised in that sort of data and LSTM is memorising the crucial information by feeding the data back into the Neural Network, while the dropout layer is to prevent overfitting. Then we're going to compile them all and train the model with 25 epochs.
+Next, we are going to build a Neural Network which is going to be the model that we are going to use for the prediction. We are going to equate the model to Sequential() and add LSTM layers (Long Short-Term Memory) and dropout layers. LSTM layers are going to be recurrent layers which we are going to use to memorize data since we are dealing with sequential data which has day 1, day 2, day 3, and so on. Those layers are powerful because they are specialized in that sort of data and LSTM is memorizing the crucial information by feeding the data back into the Neural Network, while the dropout layer is to prevent overfitting. Then we're going to compile them all and train the model with 25 epochs.
 
 ![Screenshot 07-02-2022 232436](https://user-images.githubusercontent.com/81313873/152882464-e0aa2367-dab5-4961-884b-e90edf7ed29c.jpg)
 
@@ -44,7 +44,7 @@ We can do that by adding the future day in the prepared data by saying future_da
 
 ![Screenshot 07-02-2022 231010](https://user-images.githubusercontent.com/81313873/152880843-60f9bf01-ef81-4fc6-9882-32398595bab4.jpg)
 
-This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 30 days prediction into the future. The forcast is positive as we can see what the price would be in 30 days. Interpreting the curve, the bitcoin price would rise to $48k or more from its current price.
+This is just a slight change that we can use to predict the future day, hence, 30 days after that. Once the model is trained, we can see the 30 days prediction into the future. The forecast is positive as we can see what the price would be in 30 days. Interpreting the curve, the Bitcoin price would rise to $48k or more from its current price.
 
 ![Screenshot 07-02-2022 234255](https://user-images.githubusercontent.com/81313873/152885095-babff09a-7e83-4202-8d8f-471223da9609.jpg)
 
@@ -53,18 +53,18 @@ This is just a slight change that we can use to predict the future day, hence, 3
 # PROJECT 2: Data Analysis for Predicting Wine Quality With Machine Learning
 
 ### Overview
-A python project I worked on with a case study that predicts wine quality, in this case, red wine. I am working on this project using python on Jupyter notebook.
+A Python project I worked on with a case study that predicts wine quality, in this case, red wine. I am working on this project using Python on Jupyter Notebook.
 
 ### Goal
 
-Provide insight and predict the quality of the wine based on the features of the wine using a classification model.
+Provide insight and predict the quality of the wine based on the features of the wine using a classification model. 
 
 ### Analysis Approach
 
 This dataset can either be worked on as a classification or a regression model. I chose to work with classification model so as to get more accuracy on the wine quality.
 
 ### Dataset Information
-This dataset is gotten from UCI https://archive.ics.uci.edu/ml/datasets/Wine+Quality machine learning repository. The classes are ordered and not balanced that means a high number of samples are focused on only one class. The dataset needs to be balanced so as to get the accuracy correctly. Poor and excellent wines will be spotted by the few outliers.
+This dataset is gotten from UCI https://archive.ics.uci.edu/ml/datasets/Wine+Quality machine learning repository. The classes are ordered and not balanced which means a high number of samples are focused on only one class. The dataset needs to be balanced so as to get the accuracy correctly. The few outliers will spot poor and excellent wines.
 
 
 Each wine sample has the following characteristics:
@@ -91,11 +91,11 @@ Loading the dataset in order to see all the 12 attributes of the data and making
 
 ![Dataset](https://user-images.githubusercontent.com/81313873/157825388-7d6f1602-43c9-4bb8-80de-c7f930a6e8ef.jpg)
 
-I checked the statistical information to see if there were any missing values from the count. The total number of sample is 1599 and there are no missing values from the dataset. If there were missing values, they can be filled with the mean, median, or mode values but in numerical attributes, the mean is used to fill the missing values because of its average value.
+I checked the statistical information to see if there were any missing values from the count. The total number of samples is 1599 and there are no missing values from the dataset. If there were missing values, they can be filled with the mean, median, or mode values but in numerical attributes, the mean is used to fill the missing values because of its average value.
 
 ![Dataset described](https://user-images.githubusercontent.com/81313873/157827432-22117524-bea7-4c2a-9dd6-3be6b4d8b6a2.jpg)
 
-Checking the datatype info, we will see the different datatypes, in this case, we have both the float and int. We can make use of the int as a classifier or regressor because it is within a particular range of values. We can perform various analysis because of these numerical attributes (float, int).
+Checking the datatype info, we will see the different datatypes, in this case, we have both the float and int. We can make use of the int as a classifier or regressor because it is within a particular range of values. We can perform various analyses because of these numerical attributes (float, int).
 
 ![Data type](https://user-images.githubusercontent.com/81313873/157828940-a9bf5372-3d01-411b-91f6-e6ac676d71b4.jpg)
 
@@ -113,16 +113,16 @@ Creating box plots to check for outliers
 
 Running the code, there are big outliers that are in volatile acidity, chlorides, and total sulfur dioxide. By removing the outliers, we can improve the model accuracy by a few percent but it won't make that much difference. So, if we want to remove values from the outliers, it will be from volatile acidity, chlorides, and total sulfur dioxide, other values are in good range.
 
-To check for the distribution and skewness of the values, we need to create a  distplot. Creating a distplot, all the values are in almost normal distribution so we do not need to change any of the distributions and the values range are very less except for free sulfur dioxide that is in a big range. To change the big range of free sulfur dioxide, we will use log transformation.
+To check for the distribution and skewness of the values, we need to create a  distplot. Creating a distplot, all the values are in almost normal distribution so we do not need to change any of the distributions and the values range is very less except for free sulfur dioxide which is in a big range. To change the big range of free sulfur dioxide, we will use log transformation.
 
 ![Log transformation](https://user-images.githubusercontent.com/81313873/159507276-3194dfaf-3f2e-4c18-be30-5e7aa7c287f1.jpg)
 
 Now, it is in uniform distribution unlike before when it was right skewed.
 
-Carrying out another analysis to check the amount of class we have for the classification part.
+Carrying out another analysis to check the amount of classes we have for the classification part.
 
 ![Amount of class](https://user-images.githubusercontent.com/81313873/159509124-e815b353-0e74-4694-afc3-9574e1934441.jpg)
-As mentioned above, the quality of the wine is in the range of 0 to 10 but in this dataset, it is in the range of 3 to 9. Classes 5, 6, and 7 have higher number of samples compared to others. In this case, the whole model will be biased to these three classes only. We need to seperate the model for the test-dataset prediction which is called **Class Imbalancement** because all the classes are in different range of values. We will need to balance all the classes and make the dataset to be uniform.
+As mentioned above, the quality of the wine is in the range of 0 to 10 but in this dataset, it is in the range of 3 to 9. Classes 5, 6, and 7 have higher number of samples compared to others. In this case, the whole model will be biased to these three classes only. We need to separate the model for the test-dataset prediction which is called **Class Imbalancement** because all the classes are in different ranges of values. We will need to balance all the classes and make the dataset to be uniform.
 
 ### Correlation Matrix
 
@@ -130,16 +130,16 @@ As mentioned above, the quality of the wine is in the range of 0 to 10 but in th
 Focusing on the output, alcohol is positively correlated with quality and negatively correlated with density while free sulfur dioxide is highly correlated with total sulfur dioxide because they are both sulfur dioxide. We can decide to drop free sulfur dioxide and also density from the dataset. Apart from these two values, we are not seeing any other highly imparted values in the correlation matrix.
 
 ### Class imbalacement
-When it comes to class imbalancement, I used **SMOTE** and transformed the dataset. But first I checked the number of values in each dataset and 5 has the highest number of values of 681. The oversample function will sample all the low numbered classes to 681.
+When it comes to class imbalancement, I used **SMOTE** and transformed the dataset. But first I checked the number of values in each dataset and 5 has the highest number of values of 681. The oversample function will sample all the low-numbered classes to 681.
 
 ![Class imbalancement](https://user-images.githubusercontent.com/81313873/159694662-08d4abc4-9a8c-4718-b359-7caad0c9c7fb.jpg)
 
 ### Model Training
-As I said above, I used classification for training the dataset. After clasifying the function, I splitted the dataset with the train_test_split function. After splitting the model, I trained the model and printed the accuracy. I used cross validation to be able to get more information about the performance of the model and multiplied by 100 so it will be in percentage format.
+As I said above, I used classification for training the dataset. After classifying the function, I splitted the dataset with the train_test_split function. After splitting the model, I trained the model and printed the accuracy. I used cross-validation to be able to get more information about the performance of the model and multiplied by 100 so it will be in a percentage format.
 
 ![Model training](https://user-images.githubusercontent.com/81313873/159907596-c14e8a3a-2555-47bd-be5e-7717766217b4.jpg)
 
-To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier(). From all the models, we have 86% accuracy and cross validation score of 81 from XGBClassifier which is one of the best models we have got from the dataset. If we did not rebalance the class or oversample the dataset, the percentage accuracy and the cross validation score would be low which shows that the model is not performing well.
+To get the accuracy, I imported LogisticRegression(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), lightgbm.LGBMClassifier(), and xgb.XGBClassifier(). From all the models, we have 86% accuracy and a cross-validation score of 81 from XGBClassifier which is one of the best models we have got from the dataset. If we did not rebalance the class or oversample the dataset, the percentage accuracy and the cross-validation score would be low which shows that the model is not performing well.
 
 
 To get the source code to the model, please **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Wine%20Quality.ipynb).**
@@ -147,6 +147,33 @@ To get the source code to the model, please **[click here](https://github.com/Te
 ---
 
 # Project 3: Customer Shopping Analysis
+### Goal
+
+Provide insight into customers' shopping experience, and be able to make data-driven recommendations and solutions about areas that are underperforming.
 
 ### Some Information About The Dataset
-The dataset recorded 99,457 customers from 10 different shopping malls in the city of Instabul.
+This dataset is gotten from Kaggle https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset. The dataset recorded 99,457 customers from 10 different shopping malls from 2021 to 2023 in the city of Istanbul.
+
+### Content
+
+Attribute Information:
+
+invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
+
+customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
+
+gender: String variable of the customer's gender.
+
+age: Positive Integer variable of the customers age.
+
+category: String variable of the category of the purchased product.
+
+quantity: The quantities of each product (item) per transaction. Numeric.
+
+price: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
+
+payment_method: String variable of the payment method (cash, credit card, or debit card) used for the transaction.
+
+invoice_date: The day when a transaction was generated.
+
+shopping_mall: String variable of the name of the shopping mall where the transaction was made.

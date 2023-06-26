@@ -200,6 +200,6 @@ With such a gap in the gender customers, the females spent the most.
 
 ![Gender purchase power](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/a8af5d6b-5f94-4f72-ac8f-d1869233a9e4)
 
-There were different ages of individual customers who visited the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In the analysis, the age group that purchased the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also spent more.
+There were different ages of individual customers who visited the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In the analysis, the age group that purchased and transacted the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also had high spending power.
 
 ![Age distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/89e664db-52e7-4202-ba38-4fc201a99b16)

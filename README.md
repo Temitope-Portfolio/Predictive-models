@@ -191,5 +191,15 @@ Loading the dataset to see the 10 attributes of the data and also the first 5 an
 
 Checking the statistical information to see if there were any missing values from the data. The total number of samples is 99,457 and there are no missing values from the dataset.
 
-![Dataset null](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/d41d4518-2773-4b0e-945e-c3c35b3ea5d1)
+![Dataset preprocessing](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/d41d4518-2773-4b0e-945e-c3c35b3ea5d1)
 
+The dataset recorded 99,457 customers from 10 shopping malls. Among the customers of the shopping malls, 60% are females while 40% are males.
+![Percentage of Females to Males](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/c1ca1dde-d852-4803-8c03-665774b23f74)
+
+With such a gap in the gender customers, the females spent the most.
+
+![Gender purchase power](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/a8af5d6b-5f94-4f72-ac8f-d1869233a9e4)
+
+There were different ages of individual customers who visited the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In the analysis, the age group that purchased the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also spent more.
+
+![Age distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/89e664db-52e7-4202-ba38-4fc201a99b16)

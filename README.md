@@ -152,28 +152,33 @@ To get the source code to the model, please **[click here](https://github.com/Te
 Provide insight into customers' shopping experience, and be able to make data-driven recommendations and solutions about areas that are underperforming.
 
 ### Some Information About The Dataset
-This dataset is gotten from Kaggle https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset. The dataset recorded 99,457 customers from 10 different shopping malls from 2021 to 2023 in the city of Istanbul.
+This dataset is gotten from Kaggle https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset. The dataset recorded 99,457 customers from 10 different shopping malls from 2021 to 2023 in the city of Istanbul. We have gathered data from various age groups and genders to provide a comprehensive view of shopping habits in Istanbul. The dataset includes essential information such as invoice numbers, customer IDs, age, gender, payment methods, product categories, quantity, price, order dates, and shopping mall locations.
 
 ### Content
 
 Attribute Information:
 
-invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
+-> invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
 
-customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
+-> customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
 
-gender: String variable of the customer's gender.
+-> gender: String variable of the customer's gender.
 
-age: Positive Integer variable of the customers age.
+-> age: Positive Integer variable of the customers age.
 
-category: String variable of the category of the purchased product.
+-> category: String variable of the category of the purchased product.
 
-quantity: The quantities of each product (item) per transaction. Numeric.
+-> quantity: The quantities of each product (item) per transaction. Numeric.
 
-price: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
+-> price: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
 
-payment_method: String variable of the payment method (cash, credit card, or debit card) used for the transaction.
+-> payment_method: String variable of the payment method (cash, credit card, or debit card) used for the transaction.
 
-invoice_date: The day when a transaction was generated.
+-> invoice_date: The day when a transaction was generated.
 
-shopping_mall: String variable of the name of the shopping mall where the transaction was made.
+-> shopping_mall: String variable of the name of the shopping mall where the transaction was made.
+
+### Modules Used
+
+![Modules imported](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/192b2279-69a5-491b-a1f5-b8af01d1683a)
+

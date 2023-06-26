@@ -152,7 +152,7 @@ To get the source code to the model, please **[click here](https://github.com/Te
 Provide insight into customers' shopping experience, and be able to make data-driven recommendations and solutions about areas that are underperforming.
 
 ### Some Information About The Dataset
-This dataset is gotten from Kaggle https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset. The dataset recorded 99,457 customers from 10 different shopping malls from 2021 to 2023 in the city of Istanbul. We have gathered data from various age groups and genders to provide a comprehensive view of shopping habits in Istanbul. The dataset includes essential information such as invoice numbers, customer IDs, age, gender, payment methods, product categories, quantity, price, order dates, and shopping mall locations.
+This dataset is gotten from **[Kaggle](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset).** The dataset recorded 99,457 customers from 10 different shopping malls from 2021 to 2023 in the city of Istanbul. We have gathered data from various age groups and genders to provide a comprehensive view of shopping habits in Istanbul. The dataset includes essential information such as invoice numbers, customer IDs, age, gender, payment methods, product categories, quantity, price, order dates, and shopping mall locations.
 
 ### Content
 
@@ -179,6 +179,17 @@ Attribute Information:
 -> shopping_mall: String variable of the name of the shopping mall where the transaction was made.
 
 ### Modules Used
+I begin by importing the necessary Python packages and then load the dataset into the Python environment.
 
 ![Modules imported](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/192b2279-69a5-491b-a1f5-b8af01d1683a)
+
+### Loading the dataset
+
+Loading the dataset to see the 10 attributes of the data and also the first 5 and last 5 columns of the data.
+
+![Dataset for customer shopping analysis](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/ab959e06-d166-4bf8-b502-1a52fd76712a)
+
+Checking the statistical information to see if there were any missing values from the data. The total number of samples is 99,457 and there are no missing values from the dataset.
+
+![Dataset null](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/d41d4518-2773-4b0e-945e-c3c35b3ea5d1)
 

@@ -227,6 +227,12 @@ Checking the shopping malls with the number of transactions, Mall of Istanbul, K
 
 ![Transactions per shopping malls](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6a9519d7-73e0-4149-981f-3d019bdb9086)
 
-The shopping malls of mall of Istanbul, Kanyon, and Metrocity generated more revenue compared to others
+The shopping malls of mall of Istanbul, Kanyon, and Metrocity generated more revenue compared to others.
 
 ![Revenue per shopping mall](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/0c6b006f-9fd9-4592-bb36-d6a4591d2903)
+
+Checking the distribution of age groups among both genders to know which of the categories does the consumers visit the most. This crosstab is just to further confirm the above to show which age group is more active in the shopping experience.
+
+![age group and gender distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1df59dc5-8286-4f41-84e6-1d900aace3ad)
+
+#### Analysing Customers Monthly, Yearly, and Quaterly Revenue

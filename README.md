@@ -251,6 +251,13 @@ But because there is no huge difference with the bar plot, I went ahead to show 
 
 ![Line chart for daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/9b4dcca0-10db-4398-956e-e84472c4c20c)
 
-In getting to know the monthly total sales per year, I used the year-month column I created taking into account the total price of each month. Checking the chart, the months of October records the highest sales while the months of July comes second.
+In getting to know the monthly total sales per year, I added a new label **year_month** into the dataframe, taking into account the total price of each month. Checking the chart, the months of October records the highest sales while the months of July comes second.
 
 ![Total amount spent monthly per year](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f6da46e2-c87d-46ea-b5fc-c4abdc68f30f)
+
+Checking the year that makes the most sales, the year 2022 had the most sales. The year 2023 can not be used as we are currently in it and has not concluded. The year 2023 has data only from January to the beginning of March.
+
+![Yearly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f9bb5a19-58ac-4981-8ae4-62319072cd32)
+
+Inorder to get the quarter sales of the year 2021 and 2022, I added a new label **quarter** into the dataframe.
+![Quarterly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/ffbff5c2-41a5-402a-b786-a7083759df27)

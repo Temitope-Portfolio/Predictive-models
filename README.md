@@ -247,6 +247,10 @@ With the new data, I went ahead to check daily transactions in all the shopping 
 
 ![Daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/30125349-f77a-4a39-b903-2e9c9df53490)
 
-But because there is no huge difference with the bar plot, I went ahead to show the difference with line chart which starts from Monday through Sunday. With that, I can see the fluctuations during the week. It shows a **W** pattern of increased transactions on Monday drops on Tuesday through Wednesday, a little bit increase on Thursday but a huge increase on Friday, drops on Saturday and steady increase on Sunday till there's increase on Monday again.
+But because there is no huge difference with the bar plot, I went ahead to show the difference with line chart which starts from Monday through Sunday. With that, I can see the fluctuations during the week. It shows a pattern of transaction which on Monday has its highest volume of transaction then later drops on Tuesday through Wednesday, a little bit increase on Thursday but a huge increase on Friday, drops on Saturday and steady increase on Sunday till there's another increase on Monday and the pattern continues in that range.
 
 ![Line chart for daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/9b4dcca0-10db-4398-956e-e84472c4c20c)
+
+In getting to know the monthly total sales per year, I used the year-month column I created taking into account the total price of each month. Checking the chart, the months of October records the highest sales while the months of July comes second.
+
+![Total amount spent monthly per year](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f6da46e2-c87d-46ea-b5fc-c4abdc68f30f)

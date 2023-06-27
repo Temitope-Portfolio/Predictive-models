@@ -212,4 +212,21 @@ There were 8 categories of items sold in all the shopping malls. Clothing was pu
 ![Category purchased](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1f15e7cb-0966-48ef-ac79-3ad23175bf27)
 
 Clothing, shoes, and technology brought in the most revenue among all other categories while books, food & beverages, and souvenirs brought in the least revenue.
+
 ![Category spending](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/647a3d14-eee6-447d-87f6-01a4135584a6)
+
+Carrying out another analysis to know which payment method is been used the most. From the analysis, cash was used most by both genders in all the shopping malls.
+
+![Payment method](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/0b73818f-cced-49fc-8691-8df9778716d2)
+
+As mentioned above, cash is the most preferred method of payment, I went further to check how each gender relates to the different methods of payment. Using the barplot to check the payment method used by each gender, females used cash more as a payment method compared to males while males used both cards more compared to females.
+
+![Gender and payment method](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/137cd8de-decd-4473-b02a-b50015ea3d6d)
+
+Checking the shopping malls with the number of transactions, Mall of Istanbul, Kanyon, and Metrocity have a higher number of customers visiting the shopping malls.
+
+![Transactions per shopping malls](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6a9519d7-73e0-4149-981f-3d019bdb9086)
+
+The shopping malls of mall of Istanbul, Kanyon, and Metrocity generated more revenue compared to others
+
+![Revenue per shopping mall](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/0c6b006f-9fd9-4592-bb36-d6a4591d2903)

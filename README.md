@@ -179,7 +179,7 @@ Attribute Information:
 -> shopping_mall: String variable of the name of the shopping mall where the transaction was made.
 
 ### Modules Used
-I begin by importing the necessary Python packages and then load the dataset into the Python environment.
+I begin by importing the necessary Python packages and then loading the dataset into the Python environment.
 
 ![Modules imported](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/192b2279-69a5-491b-a1f5-b8af01d1683a)
 
@@ -193,13 +193,18 @@ Checking the statistical information to see if there were any missing values fro
 
 ![Dataset preprocessing](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/d41d4518-2773-4b0e-945e-c3c35b3ea5d1)
 
-The dataset recorded 99,457 customers from 10 shopping malls. Among the customers of the shopping malls, 60% are females while 40% are males.
+Among the 99,457 customers that visited the shopping malls, 60% are females while 40% are males.
+
 ![Percentage of Females to Males](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/c1ca1dde-d852-4803-8c03-665774b23f74)
 
-With such a gap in the gender customers, the females spent the most.
+With such a gap in the gender customers, the females brought in the most revenue.
 
 ![Gender purchase power](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/a8af5d6b-5f94-4f72-ac8f-d1869233a9e4)
 
-There were different ages of individual customers who visited the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In the analysis, the age group that purchased and transacted the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also had high spending power.
+There were different ages of individual customers who visited the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In this analysis, the age group that purchased and transacted the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also had high spending power.
 
 ![Age distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/89e664db-52e7-4202-ba38-4fc201a99b16)
+
+There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics and food & beverages came second and third. 
+
+![Category purchased](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1f15e7cb-0966-48ef-ac79-3ad23175bf27)

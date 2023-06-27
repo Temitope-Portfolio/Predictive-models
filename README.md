@@ -235,4 +235,6 @@ Checking the distribution of age groups among both genders to know which of the 
 
 ![age group and gender distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1df59dc5-8286-4f41-84e6-1d900aace3ad)
 
-#### Analysing Customers Monthly, Yearly, and Quaterly Revenue
+#### Analysing Customers Monthly, Yearly, and Quarterly Revenue
+
+In this section, I worked on the invoice date provided in the dataset inorder to split it into day of the week, month, and year. With that we can know the quarterly revenue.

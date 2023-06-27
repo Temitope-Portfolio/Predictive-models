@@ -193,6 +193,8 @@ Checking the statistical information to see if there were any missing values fro
 
 ![Dataset preprocessing](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/d41d4518-2773-4b0e-945e-c3c35b3ea5d1)
 
+### Exploratory Data Analysis
+
 Among the 99,457 customers that visited the shopping malls, 60% are females while 40% are males.
 
 ![Percentage of Females to Males](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/c1ca1dde-d852-4803-8c03-665774b23f74)
@@ -205,6 +207,9 @@ There were different ages of individual customers who visited the shopping malls
 
 ![Age distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/89e664db-52e7-4202-ba38-4fc201a99b16)
 
-There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics and food & beverages came second and third. 
+There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics, food & beverages came second and third and books are the least purchased item in the category.
 
 ![Category purchased](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1f15e7cb-0966-48ef-ac79-3ad23175bf27)
+
+
+![Category spending](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/647a3d14-eee6-447d-87f6-01a4135584a6)

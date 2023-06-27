@@ -237,4 +237,16 @@ Checking the distribution of age groups among both genders to know which of the 
 
 #### Analysing Customers Monthly, Yearly, and Quarterly Revenue
 
-In this section, I worked on the invoice date provided in the dataset inorder to split it into day of the week, month, and year. With that we can know the quarterly revenue.
+In this section, I worked on the invoice date provided in the dataset inorder to split it into day of the week, month, and year. With that I can know the quarterly revenue.
+
+I begin by copying the original data before working on it, then I splitted the invoice date into day, month, and year using the datetime package imported in the modules used. I then went ahead and used the new data gotten to get a year_month column which will be used to get the monthly revenue of each year. Below is the outcome of the data wrangling.
+
+![Screenshot 27-06-2023 135606](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6916d666-6a00-4578-a806-68e24cb5893d)
+
+With the new data, I went ahead to check daily transactions in all the shopping malls
+
+![Daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/30125349-f77a-4a39-b903-2e9c9df53490)
+
+But because there is no huge difference with the bar plot, I went ahead to show the difference with line chart
+
+![Line chart for daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/9b4dcca0-10db-4398-956e-e84472c4c20c)

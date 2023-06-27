@@ -203,13 +203,13 @@ With such a gap in the gender customers, the females brought in the most revenue
 
 ![Gender purchase power](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/a8af5d6b-5f94-4f72-ac8f-d1869233a9e4)
 
-There were different ages of individual customers who visited the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In this analysis, the age group that purchased and transacted the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also had high spending power.
+There were different ages of individual customers who purchased from the shopping malls, which made me group the ages into 7 groups that can be easily targeted while marketing. In this analysis, the age group that purchased and transacted the most was 35-44 while age groups of 25-34, 45-54, and 55-64 also had high spending power.
 
 ![Age distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/89e664db-52e7-4202-ba38-4fc201a99b16)
 
-There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics, food & beverages came second and third and books are the least purchased item in the category.
+There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics, food & beverages came second and third and books and souvenirs are the least purchased items in the category.
 
 ![Category purchased](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1f15e7cb-0966-48ef-ac79-3ad23175bf27)
 
-
+Clothing, shoes, and technology brought in the most revenue among all other categories while books, food & beverages, and souvenirs brought in the least revenue.
 ![Category spending](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/647a3d14-eee6-447d-87f6-01a4135584a6)

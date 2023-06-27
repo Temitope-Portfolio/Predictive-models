@@ -235,7 +235,7 @@ Checking the distribution of age groups among both genders to know which of the 
 
 ![age group and gender distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1df59dc5-8286-4f41-84e6-1d900aace3ad)
 
-#### Analysing Customers Monthly, Yearly, and Quarterly Revenue
+#### Analysing Monthly, Yearly, and Quarterly Revenue
 
 In this section, I worked on the invoice date provided in the dataset inorder to split it into day of the week, month, and year. With that I can know the quarterly revenue.
 
@@ -247,6 +247,6 @@ With the new data, I went ahead to check daily transactions in all the shopping 
 
 ![Daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/30125349-f77a-4a39-b903-2e9c9df53490)
 
-But because there is no huge difference with the bar plot, I went ahead to show the difference with line chart
+But because there is no huge difference with the bar plot, I went ahead to show the difference with line chart which starts from Monday through Sunday. With that, I can see the fluctuations during the week. It shows a **W** pattern of increased transactions on Monday drops on Tuesday through Wednesday, a little bit increase on Thursday but a huge increase on Friday, drops on Saturday and steady increase on Sunday till there's increase on Monday again.
 
 ![Line chart for daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/9b4dcca0-10db-4398-956e-e84472c4c20c)

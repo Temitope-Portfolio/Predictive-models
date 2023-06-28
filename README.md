@@ -271,12 +271,12 @@ From the dataset, I highlighted the fact that **60%** of the customers visiting 
 
 I also give a detailed analysis of the age group that purchases the most. Customers in the age groups **25-34, 35-44, 45-54, and 55-64** drive up the sales of the shopping malls which brings in more revenue.
 
-Among the 8 categories of items sold, **clothing, shoes, and technology** ranked in more sales, in other words, more profits.
+Among the 8 categories of items sold, **clothing, shoes, and technology** brought in more sales, in other words, more profits.
 
 The customers preferred using cash as their mode of payment as most of the items were paid for with cash. In an instance where either credit or debit cards were used, the males used them more than the females as a mode of payment, while the females used cash more than the males.
 
 In the dataset, we have 10 shopping malls in different locations in the city of Istanbul, and out of the 10 malls, 5 drive in most of the sales with the Mall of Istanbul and Kanyon outperforming all the malls.
 
-From the analysis, I noticed that customers purchase items more on Mondays and Fridays as there is always a customer spike on these days, and they purchase less on Wednesdays and Saturdays.
+From the analysis, I noticed that customers purchase more items on Mondays and Fridays as there is always a customer spike on these days, and they purchase less on Wednesdays and Saturdays.
 
-In all the shopping malls altogether, the months of October and July always record high sales amidst other months and the year 2022 generated more sales compared to 2021.  No decision can be made on the year 2023 as it is not concluded. More sales were made in the third quarter of 2022. There is an exponential increase in the sales generated while comparing the quarter sales of each year. To expand on this, the sales generated in the first quarter of 2022 were higher than the 2021 first-quarter sales and 2022 second-quarter sales were higher than 2021 second-quarter sales and so on.
+In all the shopping malls altogether, the months of October and July always record high sales amidst other months and the year 2022 generated more sales compared to 2021.  No decision can be made on the year 2023 as it has not been concluded. The third quarter of 2022 recorded the most sales. There is an exponential increase in the sales generated while comparing the quarter sales of each year. To expand on this, the sales generated in the first quarter of 2022 were higher than the 2021 first-quarter sales and 2022 second-quarter sales were higher than 2021 second-quarter sales and so on.

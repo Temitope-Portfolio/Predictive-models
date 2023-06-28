@@ -267,10 +267,11 @@ To get the source code to this analysis, kindly **[click here](https://github.co
 
 ### **Conclusion**
 
-From the dataset, I highlighted the fact that 60% of the customers visiting the shopping malls are females which is a major reason for the high sales of the shopping malls.
+From the dataset, I highlighted the fact that **60%** of the customers visiting the shopping malls are females which is a major reason for the high sales of the shopping malls.
 
-I also give a detailed analysis of the age group that purchases the most. Customers in the age groups 25-34, 35-44, 45-54, and 55-64 drive up the sales of the shopping malls which brings in more revenue.
+I also give a detailed analysis of the age group that purchases the most. Customers in the age groups **25-34, 35-44, 45-54, and 55-64** drive up the sales of the shopping malls which brings in more revenue.
 
-Among the 8 categories of items sold, clothing, shoes, and technology ranked in more sales, in other words, more profits.
+Among the 8 categories of items sold, **clothing, shoes, and technology** ranked in more sales, in other words, more profits.
 
-The customers preferred using cash as their mode of payment as most of the items were paid with cash. 
+The customers preferred using cash as their mode of payment as most of the items were paid for with cash. In an instance where either credit or debit cards were used, the males used them more than the females as a mode of payment, while the females used cash more than the males.
+

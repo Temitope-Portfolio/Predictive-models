@@ -264,3 +264,7 @@ In order to get the quarterly sales for the years 2021 and 2022, I added a new l
 ![Quarterly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/ffbff5c2-41a5-402a-b786-a7083759df27)
 
 To get the source code to this analysis, kindly **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Customer%20Shopping%20Analysis.ipynb).**
+
+### **Conclusion**
+
+From the dataset, I highlighted

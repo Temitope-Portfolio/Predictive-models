@@ -199,7 +199,7 @@ Among the 99,457 customers that visited the shopping malls, 60% are females whil
 
 ![Percentage of Females to Males](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/c1ca1dde-d852-4803-8c03-665774b23f74)
 
-With such a gap in the gender customers, the females brought in the most revenue.
+With such a gap in the gender customers, the females purchased the most.
 
 ![Gender purchase power](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/a8af5d6b-5f94-4f72-ac8f-d1869233a9e4)
 
@@ -207,7 +207,7 @@ There were different ages of individual customers who purchased from the shoppin
 
 ![Age distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/89e664db-52e7-4202-ba38-4fc201a99b16)
 
-There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics, food & beverages came second and third and books and souvenirs are the least purchased items in the category.
+There were 8 categories of items sold in all the shopping malls. Clothing was purchased the most, while cosmetics, food & beverages came second and third, and books and souvenirs are the least purchased items in the category.
 
 ![Category purchased](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1f15e7cb-0966-48ef-ac79-3ad23175bf27)
 
@@ -227,19 +227,19 @@ Checking the shopping malls with the number of transactions, Mall of Istanbul, K
 
 ![Transactions per shopping malls](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6a9519d7-73e0-4149-981f-3d019bdb9086)
 
-The shopping malls of mall of Istanbul, Kanyon, and Metrocity generated more revenue compared to others.
+The shopping malls of mall of Istanbul, Kanyon, and Metrocity generated more sales compared to others.
 
 ![Revenue per shopping mall](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/0c6b006f-9fd9-4592-bb36-d6a4591d2903)
 
-Checking the distribution of age groups among both genders to know which of the categories does the consumers visit the most. This crosstab is just to further confirm the above to show which age group is more active in the shopping experience.
+Checking the distribution of age groups among both genders to know which of the categories the consumers visit the most. This crosstab is just to further confirm the above to show which age group is more active in the shopping experience.
 
 ![age group and gender distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1df59dc5-8286-4f41-84e6-1d900aace3ad)
 
 #### Analysing Monthly, Yearly, and Quarterly Revenue
 
-In this section, I worked on the invoice date provided in the dataset inorder to split it into day of the week, month, and year. With that I can know the quarterly revenue.
+In this section, I worked on the invoice date provided in the dataset in order to split it and create new labels  into **day of the week**, **month**, and **year**. With these labels, I can know the month, year, and quarterly sales of the shopping malls.
 
-I begin by copying the original data before working on it, then I splitted the invoice date into day, month, and year using the datetime package imported in the modules used. I then went ahead and used the new data gotten to get a year_month column which will be used to get the monthly revenue of each year. Below is the outcome of the data wrangling.
+I began by copying the original data before working on it, then I worked on the invoice date in order to split it into day, month, and year using the datetime package imported. I then went ahead and used the new data to get a year_month column which will be used to get the monthly sales of each year. Below is the outcome of the data wrangling.
 
 ![Screenshot 27-06-2023 135606](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6916d666-6a00-4578-a806-68e24cb5893d)
 
@@ -247,17 +247,18 @@ With the new data, I went ahead to check daily transactions in all the shopping 
 
 ![Daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/30125349-f77a-4a39-b903-2e9c9df53490)
 
-But because there is no huge difference with the bar plot, I went ahead to show the difference with line chart which starts from Monday through Sunday. With that, I can see the fluctuations during the week. It shows a pattern of transaction which on Monday has its highest volume of transaction then later drops on Tuesday through Wednesday, a little bit increase on Thursday but a huge increase on Friday, drops on Saturday and steady increase on Sunday till there's another increase on Monday and the pattern continues in that range.
+But because there is no huge difference with the bar plot, I went ahead to show the difference with a line chart which starts from Monday through Sunday. With that, I can see the fluctuations during the week. It shows a pattern of transactions which on Monday has its highest volume of transactions then later drops on Tuesday through Wednesday, a little bit of increase on Thursday but a huge increase on Friday, drops on Saturday and steady increase on Sunday till there's another increase on Monday and the pattern continues in that range.
 
 ![Line chart for daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/9b4dcca0-10db-4398-956e-e84472c4c20c)
 
-In getting to know the monthly total sales per year, I added a new label **year_month** into the dataframe, taking into account the total price of each month. Checking the chart, the months of October records the highest sales while the months of July comes second.
+In getting to know the monthly total sales per year, I added a new label **year_month** into the dataframe, taking into account the total price of each month. Checking the chart, the months of October record the highest sales while the months of July come second.
 
 ![Total amount spent monthly per year](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f6da46e2-c87d-46ea-b5fc-c4abdc68f30f)
 
-Checking the year that makes the most sales, the year 2022 had the most sales. The year 2023 can not be used as we are currently in it and has not concluded. The year 2023 has data only from January to the beginning of March.
+Checking the year that makes the most sales, the year 2022 had the most sales. The year 2023 can not be used as we are currently in it and it has not concluded. The year 2023 has data only from January to the beginning of March.
 
 ![Yearly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f9bb5a19-58ac-4981-8ae4-62319072cd32)
 
-Inorder to get the quarter sales of the year 2021 and 2022, I added a new label **quarter** into the dataframe.
+In order to get the quarterly sales for the years 2021 and 2022, I added a new label **quarter** into the dataframe. In getting to know the pattern of the quarterly sales, I used the same method I used in the daily transaction with the line chart to be able to see the clear movement of the quarterly sales. This shows that sales always drop in the first quarter of the year, while sales peak in the third quarter of the year.
+
 ![Quarterly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/ffbff5c2-41a5-402a-b786-a7083759df27)

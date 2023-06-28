@@ -262,3 +262,5 @@ Checking the year that makes the most sales, the year 2022 had the most sales. T
 In order to get the quarterly sales for the years 2021 and 2022, I added a new label **quarter** into the dataframe. In getting to know the pattern of the quarterly sales, I used the same method I used in the daily transaction with the line chart to be able to see the clear movement of the quarterly sales. This shows that sales always drop in the first quarter of the year, while sales peak in the third quarter of the year.
 
 ![Quarterly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/ffbff5c2-41a5-402a-b786-a7083759df27)
+
+To get the source code to this analysis, kindly **[click here](https://github.com/Temitope-Portfolio/Temitope-Portfolio/blob/main/Customer%20Shopping%20Analysis.ipynb).**

@@ -279,3 +279,4 @@ In the dataset, we have 10 shopping malls in different locations in the city of 
 
 From the analysis, I noticed that customers purchase items more on Mondays and Fridays as there is always a customer spike on these days, and they purchase less on Wednesdays and Saturdays.
 
+In all the shopping malls altogether, the months of October and July always record high sales amidst other months and the year 2022 generated more sales compared to 2021.  No decision can be made on the year 2023 as it is not concluded. More sales were made in the third quarter of 2022. There is an exponential increase in the sales generated while comparing the quarter sales of each year. To expand on this, the sales generated in the first quarter of 2022 were higher than the 2021 first-quarter sales and 2022 second-quarter sales were higher than 2021 second-quarter sales and so on.

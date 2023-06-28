@@ -267,4 +267,4 @@ To get the source code to this analysis, kindly **[click here](https://github.co
 
 ### **Conclusion**
 
-From the dataset, I highlighted
+From the dataset, I highlighted the fact that 60% of the customers visiting the shopping malls are females which is a major reason for the high sales of the shopping malls.

@@ -235,13 +235,13 @@ Checking the distribution of age groups among both genders to know which of the 
 
 ![age group and gender distribution](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/1df59dc5-8286-4f41-84e6-1d900aace3ad)
 
-#### Analysing Monthly, Yearly, and Quarterly Revenue
+#### Analysing Monthly, Yearly, and Quarterly Sales
 
 In this section, I worked on the invoice date provided in the dataset in order to split it and create new labels  into **day of the week**, **month**, and **year**. With these labels, I can know the month, year, and quarterly sales of the shopping malls.
 
 I began by copying the original data before working on it, then I worked on the invoice date in order to split it into day, month, and year using the datetime package imported. I then went ahead and used the new data to get a year_month column which will be used to get the monthly sales of each year. Below is the outcome of the data wrangling.
 
-![Screenshot 27-06-2023 135606](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6916d666-6a00-4578-a806-68e24cb5893d)
+![New datahead](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/6916d666-6a00-4578-a806-68e24cb5893d)
 
 With the new data, I went ahead to check daily transactions in all the shopping malls
 
@@ -251,11 +251,11 @@ But because there is no huge difference with the bar plot, I went ahead to show 
 
 ![Line chart for daily transactions](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/9b4dcca0-10db-4398-956e-e84472c4c20c)
 
-In getting to know the monthly total sales per year, I added a new label **year_month** into the dataframe, taking into account the total price of each month. Checking the chart, the months of October record the highest sales while the months of July come second.
+In getting to know the monthly total sales per year, I used the new label **year_month** which was added to the dataframe above, taking into account the total price of each month. Checking the chart, the months of October record the highest sales while the months of July come second.
 
 ![Total amount spent monthly per year](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f6da46e2-c87d-46ea-b5fc-c4abdc68f30f)
 
-Checking the year that makes the most sales, the year 2022 had the most sales. The year 2023 can not be used as we are currently in it and it has not concluded. The year 2023 has data only from January to the beginning of March.
+Checking the year that makes the most sales, the year 2022 had the most sales. The year 2023 can not be used as the data recorded just the first quarter of 2023.
 
 ![Yearly sales](https://github.com/Temitope-Portfolio/Temitope-Portfolio/assets/81313873/f9bb5a19-58ac-4981-8ae4-62319072cd32)
 
